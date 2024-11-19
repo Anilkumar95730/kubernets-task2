@@ -9,7 +9,10 @@ Now install Docker
 
              sudo apt install curl wget apt-transport-https -y
              sudo curl -fsSL https://get.docker.com -o get-docker.sh 
-             chmod 777 get-docker.sh sh get-docker.sh
+             chmod 777 get-docker.sh
+             sh get-docker.sh
+             systemctl start docker
+             systemctl status docker
 
 # Installation of minikube:
 
