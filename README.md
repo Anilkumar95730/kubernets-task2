@@ -27,6 +27,7 @@ by using this commands:
              sudo echo "$(cat kubectl.sha256) kubectl" | sha256sum --check
              sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
              sudo kubectl version --client --output=yaml 
+             chmod +x kubectl
              sudo minikube start --driver=docker --force
 # Create the pod commands:
                     kubectl run pod-name --image=image-name 
