@@ -34,8 +34,8 @@ by using this commands:
 create yam file 
 
                  vi anilkumar.yml
+![Screenshot 2024-11-18 211007](https://github.com/user-attachments/assets/a07ce09a-f141-4126-aa3d-42699b2e5662)
 
-![Screenshot 2024-11-18 203646](https://github.com/user-attachments/assets/d50ae276-543f-40b1-a56a-3d7cae0c205e)
 
 kubectl create -f anilkumar.yml - by this command if pod is created then the work is done
 ![Screenshot 2024-11-18 203646](https://github.com/user-attachments/assets/0beb719b-9ee9-4de0-a2dd-4d5aa3f90ac0)
